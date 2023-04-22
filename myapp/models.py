@@ -22,6 +22,5 @@ class Article(models.Model):
         verbose_name = "article"
 
     # A string representation of the Article object.
-    @classmethod
     def __str__(self):
         return str(self.title)
